@@ -1,0 +1,48 @@
+.HomePage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+.hero-text{
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+    span{
+        color:#037FFF;
+    }
+}
+.h-sub-text{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    .icon-holder{
+        margin-right: 1rem;
+        // border: 1px solid red;
+        .icon{ 
+            font-size: 2.3rem;
+            color: #a4acc4;
+            transition: all .4s ease-in-out;
+        }
+        .in:hover{
+            color:rgb(83, 35, 35)
+        }
+        .yt:hover{
+            color: red;
+        }
+        .tw:hover{
+            color: #037FFF;
+        }
+        .li:hover{
+            color: rgb(78, 78, 107);
+        }
+        .gt:hover{
+            color:rgba(212, 45, 212,0.788);
+        }
+    }
+}
